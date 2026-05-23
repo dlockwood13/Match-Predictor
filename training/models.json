@@ -1,0 +1,151 @@
+{
+  "competition": "Premier League",
+  "version": "1.0",
+  "trained_at": "2026-05-23T19:53:25.140701",
+  "ensemble_weights": {
+    "lr": 0.7000000000000001,
+    "rf": 0.29999999999999993,
+    "xgb": 0.0
+  },
+  "ensemble_test_logloss": 0.9983,
+  "teams": {
+    "Burnley": {
+      "elo": 1384.2,
+      "attack": 1.111,
+      "defense": 2.028,
+      "scorers": []
+    },
+    "Man City": {
+      "elo": 1671.7,
+      "attack": 2.028,
+      "defense": 0.869,
+      "scorers": []
+    },
+    "Arsenal": {
+      "elo": 1682.6,
+      "attack": 1.642,
+      "defense": 0.869,
+      "scorers": []
+    },
+    "Nott'm Forest": {
+      "elo": 1528.5,
+      "attack": 1.642,
+      "defense": 1.304,
+      "scorers": []
+    },
+    "Bournemouth": {
+      "elo": 1538.6,
+      "attack": 1.497,
+      "defense": 1.207,
+      "scorers": []
+    },
+    "West Ham": {
+      "elo": 1462.7,
+      "attack": 1.111,
+      "defense": 1.545,
+      "scorers": []
+    },
+    "Brighton": {
+      "elo": 1541.0,
+      "attack": 1.883,
+      "defense": 1.593,
+      "scorers": []
+    },
+    "Luton": {
+      "elo": 1384.2,
+      "attack": 1.497,
+      "defense": 2.463,
+      "scorers": []
+    },
+    "Everton": {
+      "elo": 1512.3,
+      "attack": 1.304,
+      "defense": 0.966,
+      "scorers": []
+    },
+    "Fulham": {
+      "elo": 1502.2,
+      "attack": 1.352,
+      "defense": 1.497,
+      "scorers": []
+    },
+    "Sheffield United": {
+      "elo": 1315.4,
+      "attack": 1.062,
+      "defense": 2.897,
+      "scorers": []
+    },
+    "Crystal Palace": {
+      "elo": 1549.2,
+      "attack": 1.593,
+      "defense": 1.207,
+      "scorers": []
+    },
+    "Newcastle": {
+      "elo": 1582.2,
+      "attack": 1.835,
+      "defense": 1.255,
+      "scorers": []
+    },
+    "Aston Villa": {
+      "elo": 1572.7,
+      "attack": 1.545,
+      "defense": 1.062,
+      "scorers": []
+    },
+    "Brentford": {
+      "elo": 1524.3,
+      "attack": 1.642,
+      "defense": 1.207,
+      "scorers": []
+    },
+    "Tottenham": {
+      "elo": 1472.3,
+      "attack": 1.207,
+      "defense": 1.883,
+      "scorers": []
+    },
+    "Chelsea": {
+      "elo": 1596.9,
+      "attack": 1.255,
+      "defense": 1.062,
+      "scorers": []
+    },
+    "Liverpool": {
+      "elo": 1690.1,
+      "attack": 1.98,
+      "defense": 1.159,
+      "scorers": []
+    },
+    "Man United": {
+      "elo": 1468.2,
+      "attack": 1.111,
+      "defense": 1.449,
+      "scorers": []
+    },
+    "Wolves": {
+      "elo": 1459.2,
+      "attack": 1.207,
+      "defense": 1.4,
+      "scorers": []
+    },
+    "Southampton": {
+      "elo": 1324.3,
+      "attack": 0.724,
+      "defense": 2.366,
+      "scorers": []
+    },
+    "Ipswich": {
+      "elo": 1369.8,
+      "attack": 0.966,
+      "defense": 2.366,
+      "scorers": []
+    },
+    "Leicester": {
+      "elo": 1367.5,
+      "attack": 0.531,
+      "defense": 1.931,
+      "scorers": []
+    }
+  }
+}
