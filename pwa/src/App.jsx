@@ -552,7 +552,6 @@ export default function App() {
       setHomeTeam('Argentina');
       setAwayTeam('France');
     }
-    setFixtures(null);
   }, [competition]);
 
   useEffect(() => {
