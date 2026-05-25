@@ -1,150 +1,338 @@
 {
   "competition": "Premier League",
-  "version": "1.0",
-  "trained_at": "2026-05-23T19:53:25.140701",
+  "version": "2.0",
+  "trained_at": "2026-05-25T05:54:11.269233",
+  "bivariate_poisson": {
+    "home_advantage_log": 0.1334,
+    "lambda3": 0.0
+  },
   "ensemble_weights": {
-    "lr": 0.7000000000000001,
-    "rf": 0.29999999999999993,
+    "lr": 0.4,
+    "rf": 0.6,
     "xgb": 0.0
   },
-  "ensemble_test_logloss": 0.9983,
+  "ensemble_test_logloss": 0.9903,
   "teams": {
-    "Burnley": {
-      "elo": 1384.2,
-      "attack": 1.111,
-      "defense": 2.028,
-      "scorers": []
-    },
-    "Man City": {
-      "elo": 1671.7,
-      "attack": 2.028,
-      "defense": 0.869,
-      "scorers": []
-    },
-    "Arsenal": {
-      "elo": 1682.6,
-      "attack": 1.642,
-      "defense": 0.869,
-      "scorers": []
-    },
-    "Nott'm Forest": {
-      "elo": 1528.5,
-      "attack": 1.642,
-      "defense": 1.304,
+    "Aston Villa": {
+      "elo": 1576.0,
+      "bt_skill": 0.06536,
+      "bp_attack_log": -0.1557,
+      "bp_defense_log": -0.6084,
+      "attack": 1.811,
+      "defense": 1.659,
+      "style": {
+        "tempo": 0.632,
+        "possession_proxy": 0.381,
+        "defensive_depth": 0.573
+      },
       "scorers": []
     },
     "Bournemouth": {
-      "elo": 1538.6,
-      "attack": 1.497,
-      "defense": 1.207,
-      "scorers": []
-    },
-    "West Ham": {
-      "elo": 1462.7,
-      "attack": 1.111,
-      "defense": 1.545,
-      "scorers": []
-    },
-    "Brighton": {
-      "elo": 1541.0,
-      "attack": 1.883,
-      "defense": 1.593,
+      "elo": 1537.0,
+      "bt_skill": 0.0381,
+      "bp_attack_log": -0.3349,
+      "bp_defense_log": -0.6074,
+      "attack": 1.99,
+      "defense": 1.679,
+      "style": {
+        "tempo": 0.735,
+        "possession_proxy": 0.316,
+        "defensive_depth": 0.467
+      },
       "scorers": []
     },
     "Luton": {
-      "elo": 1384.2,
-      "attack": 1.497,
-      "defense": 2.463,
-      "scorers": []
-    },
-    "Everton": {
-      "elo": 1512.3,
-      "attack": 1.304,
-      "defense": 0.966,
-      "scorers": []
-    },
-    "Fulham": {
-      "elo": 1502.2,
-      "attack": 1.352,
-      "defense": 1.497,
-      "scorers": []
-    },
-    "Sheffield United": {
-      "elo": 1315.4,
-      "attack": 1.062,
-      "defense": 2.897,
+      "elo": 1383.3,
+      "bt_skill": 0.01312,
+      "bp_attack_log": -0.3908,
+      "bp_defense_log": -0.9988,
+      "attack": 1.686,
+      "defense": 2.406,
+      "style": {
+        "tempo": 0.342,
+        "possession_proxy": 0.363,
+        "defensive_depth": 0.0
+      },
       "scorers": []
     },
     "Crystal Palace": {
-      "elo": 1549.2,
-      "attack": 1.593,
-      "defense": 1.207,
+      "elo": 1547.5,
+      "bt_skill": 0.0381,
+      "bp_attack_log": -0.3732,
+      "bp_defense_log": -0.5695,
+      "attack": 1.887,
+      "defense": 1.633,
+      "style": {
+        "tempo": 0.658,
+        "possession_proxy": 0.35,
+        "defensive_depth": 0.44
+      },
       "scorers": []
     },
-    "Newcastle": {
-      "elo": 1582.2,
-      "attack": 1.835,
-      "defense": 1.255,
-      "scorers": []
-    },
-    "Aston Villa": {
-      "elo": 1572.7,
-      "attack": 1.545,
-      "defense": 1.062,
-      "scorers": []
-    },
-    "Brentford": {
-      "elo": 1524.3,
-      "attack": 1.642,
-      "defense": 1.207,
-      "scorers": []
-    },
-    "Tottenham": {
-      "elo": 1472.3,
-      "attack": 1.207,
-      "defense": 1.883,
-      "scorers": []
-    },
-    "Chelsea": {
-      "elo": 1596.9,
-      "attack": 1.255,
-      "defense": 1.062,
-      "scorers": []
-    },
-    "Liverpool": {
-      "elo": 1690.1,
-      "attack": 1.98,
-      "defense": 1.159,
+    "Everton": {
+      "elo": 1507.6,
+      "bt_skill": 0.03407,
+      "bp_attack_log": -0.6552,
+      "bp_defense_log": -0.4203,
+      "attack": 1.451,
+      "defense": 1.718,
+      "style": {
+        "tempo": 0.274,
+        "possession_proxy": 0.421,
+        "defensive_depth": 0.573
+      },
       "scorers": []
     },
     "Man United": {
-      "elo": 1468.2,
-      "attack": 1.111,
-      "defense": 1.449,
+      "elo": 1466.3,
+      "bt_skill": 0.03504,
+      "bp_attack_log": -0.4389,
+      "bp_defense_log": -0.5935,
+      "attack": 1.854,
+      "defense": 1.547,
+      "style": {
+        "tempo": 0.897,
+        "possession_proxy": 0.311,
+        "defensive_depth": 0.413
+      },
       "scorers": []
     },
-    "Wolves": {
-      "elo": 1459.2,
-      "attack": 1.207,
-      "defense": 1.4,
+    "Brentford": {
+      "elo": 1522.0,
+      "bt_skill": 0.03131,
+      "bp_attack_log": -0.2451,
+      "bp_defense_log": -0.6888,
+      "attack": 1.805,
+      "defense": 2.016,
+      "style": {
+        "tempo": 0.556,
+        "possession_proxy": 0.362,
+        "defensive_depth": 0.547
+      },
       "scorers": []
     },
-    "Southampton": {
-      "elo": 1324.3,
-      "attack": 0.724,
-      "defense": 2.366,
+    "Burnley": {
+      "elo": 1381.7,
+      "bt_skill": 0.01223,
+      "bp_attack_log": -0.6353,
+      "bp_defense_log": -0.9029,
+      "attack": 1.653,
+      "defense": 2.551,
+      "style": {
+        "tempo": 0.607,
+        "possession_proxy": 0.335,
+        "defensive_depth": 0.173
+      },
+      "scorers": []
+    },
+    "Liverpool": {
+      "elo": 1700.1,
+      "bt_skill": 0.13322,
+      "bp_attack_log": 0.0811,
+      "bp_defense_log": -0.3128,
+      "attack": 2.293,
+      "defense": 1.527,
+      "style": {
+        "tempo": 1.0,
+        "possession_proxy": 0.304,
+        "defensive_depth": 0.467
+      },
+      "scorers": []
+    },
+    "West Ham": {
+      "elo": 1459.3,
+      "bt_skill": 0.0322,
+      "bp_attack_log": -0.3798,
+      "bp_defense_log": -0.7905,
+      "attack": 1.36,
+      "defense": 1.937,
+      "style": {
+        "tempo": 0.333,
+        "possession_proxy": 0.327,
+        "defensive_depth": 0.52
+      },
+      "scorers": []
+    },
+    "Sheffield United": {
+      "elo": 1313.2,
+      "bt_skill": 0.00761,
+      "bp_attack_log": -0.7711,
+      "bp_defense_log": -1.1859,
+      "attack": 1.562,
+      "defense": 2.578,
+      "style": {
+        "tempo": 0.308,
+        "possession_proxy": 0.378,
+        "defensive_depth": 0.0
+      },
+      "scorers": []
+    },
+    "Chelsea": {
+      "elo": 1600.0,
+      "bt_skill": 0.06347,
+      "bp_attack_log": -0.1071,
+      "bp_defense_log": -0.5563,
+      "attack": 2.129,
+      "defense": 1.38,
+      "style": {
+        "tempo": 0.897,
+        "possession_proxy": 0.347,
+        "defensive_depth": 0.653
+      },
+      "scorers": []
+    },
+    "Brighton": {
+      "elo": 1537.6,
+      "bt_skill": 0.04382,
+      "bp_attack_log": -0.254,
+      "bp_defense_log": -0.6801,
+      "attack": 1.886,
+      "defense": 1.456,
+      "style": {
+        "tempo": 0.744,
+        "possession_proxy": 0.411,
+        "defensive_depth": 0.253
+      },
       "scorers": []
     },
     "Ipswich": {
-      "elo": 1369.8,
-      "attack": 0.966,
-      "defense": 2.366,
+      "elo": 1366.8,
+      "bt_skill": 0.01093,
+      "bp_attack_log": -0.7477,
+      "bp_defense_log": -0.9777,
+      "attack": 1.383,
+      "defense": 2.27,
+      "style": {
+        "tempo": 0.41,
+        "possession_proxy": 0.31,
+        "defensive_depth": 0.067
+      },
+      "scorers": []
+    },
+    "Tottenham": {
+      "elo": 1475.6,
+      "bt_skill": 0.03504,
+      "bp_attack_log": -0.1197,
+      "bp_defense_log": -0.7282,
+      "attack": 1.554,
+      "defense": 2.048,
+      "style": {
+        "tempo": 0.376,
+        "possession_proxy": 0.354,
+        "defensive_depth": 0.253
+      },
+      "scorers": []
+    },
+    "Southampton": {
+      "elo": 1323.6,
+      "bt_skill": 0.00538,
+      "bp_attack_log": -1.0697,
+      "bp_defense_log": -1.0163,
+      "attack": 1.156,
+      "defense": 2.555,
+      "style": {
+        "tempo": 0.009,
+        "possession_proxy": 0.322,
+        "defensive_depth": 0.12
+      },
+      "scorers": []
+    },
+    "Nott'm Forest": {
+      "elo": 1526.7,
+      "bt_skill": 0.03504,
+      "bp_attack_log": -0.3807,
+      "bp_defense_log": -0.6052,
+      "attack": 1.588,
+      "defense": 2.027,
+      "style": {
+        "tempo": 0.402,
+        "possession_proxy": 0.365,
+        "defensive_depth": 0.493
+      },
+      "scorers": []
+    },
+    "Fulham": {
+      "elo": 1499.4,
+      "bt_skill": 0.03504,
+      "bp_attack_log": -0.3613,
+      "bp_defense_log": -0.6237,
+      "attack": 1.811,
+      "defense": 1.609,
+      "style": {
+        "tempo": 0.701,
+        "possession_proxy": 0.322,
+        "defensive_depth": 0.387
+      },
+      "scorers": []
+    },
+    "Wolves": {
+      "elo": 1453.5,
+      "bt_skill": 0.02639,
+      "bp_attack_log": -0.3999,
+      "bp_defense_log": -0.7747,
+      "attack": 1.651,
+      "defense": 1.492,
+      "style": {
+        "tempo": 0.556,
+        "possession_proxy": 0.324,
+        "defensive_depth": 0.547
+      },
+      "scorers": []
+    },
+    "Man City": {
+      "elo": 1678.3,
+      "bt_skill": 0.11547,
+      "bp_attack_log": 0.0559,
+      "bp_defense_log": -0.2608,
+      "attack": 2.06,
+      "defense": 1.285,
+      "style": {
+        "tempo": 0.786,
+        "possession_proxy": 0.358,
+        "defensive_depth": 0.627
+      },
+      "scorers": []
+    },
+    "Arsenal": {
+      "elo": 1692.5,
+      "bt_skill": 0.1239,
+      "bp_attack_log": 0.0,
+      "bp_defense_log": -0.0434,
+      "attack": 1.954,
+      "defense": 1.144,
+      "style": {
+        "tempo": 0.932,
+        "possession_proxy": 0.319,
+        "defensive_depth": 0.653
+      },
       "scorers": []
     },
     "Leicester": {
-      "elo": 1367.5,
-      "attack": 0.531,
-      "defense": 1.931,
+      "elo": 1365.7,
+      "bt_skill": 0.01177,
+      "bp_attack_log": -0.8368,
+      "bp_defense_log": -0.9502,
+      "attack": 1.156,
+      "defense": 2.121,
+      "style": {
+        "tempo": 0.0,
+        "possession_proxy": 0.308,
+        "defensive_depth": 0.173
+      },
+      "scorers": []
+    },
+    "Newcastle": {
+      "elo": 1586.3,
+      "bt_skill": 0.05339,
+      "bp_attack_log": -0.0239,
+      "bp_defense_log": -0.5897,
+      "attack": 1.84,
+      "defense": 1.65,
+      "style": {
+        "tempo": 0.658,
+        "possession_proxy": 0.33,
+        "defensive_depth": 0.467
+      },
       "scorers": []
     }
   }
